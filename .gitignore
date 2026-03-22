@@ -35,7 +35,7 @@ migrate_working_dir/
 
 # Google Services
 google-services.json
-/widgets/lib/firebase_options.dart
+/lib/firebase_options.dart
 
 # Symbolication related
 app.*.symbols
