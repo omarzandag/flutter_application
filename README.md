@@ -43,15 +43,57 @@ Football Team Manager is a cross-platform mobile application built with Flutter 
 - **Path Provider 2.1.5**: File system access
 
 ## 📁 Project Structure
-lib/ 
-├── main.dart # App entry point and theme configuration 
-├── firebase_options.dart # Firebase configuration 
-├── models/ # Data models 
-├── providers/ # State management with Provider 
-├── theme_provider.dart # Theme switching logic 
-└── auth_provider.dart # Authentication state 
-├── screens/ # UI screens
-├── home_screen.dart # Main app screen 
-└── login_screen.dart # Authentication screen 
-├── services/ # Business logic and API services 
-└── widgets/ # Reusable UI components
+
+main.dart (Entry Point)
+    ↓
+MultiProvider (State Management)
+    ├── ThemeProvider (Dark/Light Mode)
+    └── AuthProvider (User Authentication)
+    ↓
+FirebaseAuth (Authentication)
+    ↓
+Firebase Realtime Database
+    ├── Teams Data
+    ├── Players Data
+    └── Sessions Data
+    ↓
+Screens (UI Layer)
+    ├── Services (Business Logic)
+    └── Widgets (UI Components)
+
+
+## 🎨 Design
+
+### Color Scheme
+- **Primary Color**: `#004D40` (Dark Teal)
+- **Secondary Color**: `#00E676` (Green)
+- **Background**: `#F1F5F9` (Light Gray)
+- **Dark Mode Background**: `#121212`
+
+### Typography
+- Google Fonts for custom, modern typography
+- Consistent font scaling across devices
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter 3.0 or higher
+- Dart 3.0 or higher
+- Firebase project with Realtime Database configured
+- Android SDK 21+ / iOS 11+
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/omarzandag/flutter_application.git
+   cd flutter_application
+   ```
+2. **Get dependencies
+```bash
+   flutter pub get
+   ```
+3. **Configure Firebase
+- Create a Firebase project at Firebase Console
+- Download your google-services.json (Android) and GoogleService-Info.plist (iOS)
+- Place them in their respective platform directories
