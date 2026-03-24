@@ -43,3 +43,15 @@ Football Team Manager is a cross-platform mobile application built with Flutter 
 - **Path Provider 2.1.5**: File system access
 
 ## 📁 Project Structure
+lib/ 
+├── main.dart # App entry point and theme configuration 
+├── firebase_options.dart # Firebase configuration 
+├── models/ # Data models 
+├── providers/ # State management with Provider 
+├── theme_provider.dart # Theme switching logic 
+└── auth_provider.dart # Authentication state 
+├── screens/ # UI screens
+├── home_screen.dart # Main app screen 
+└── login_screen.dart # Authentication screen 
+├── services/ # Business logic and API services 
+└── widgets/ # Reusable UI components
