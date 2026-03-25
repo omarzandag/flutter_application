@@ -1,0 +1,31 @@
+// you should configure the application with your firebase before running 
+
+{
+  "project_info": {
+    "project_number": "",
+    "project_id": "footballmanager",
+    "storage_bucket": "footballmanager"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "",
+        "android_client_info": {
+          "package_name": "com.example.phone_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
