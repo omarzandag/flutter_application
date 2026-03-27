@@ -6,7 +6,7 @@
 
 ## 📱 Android Setup
 
-### Option A: Use Your Own Firebase Project (Recommended)
+### Option A: Use Your Own Firebase Project 
 
 1. **Go to [Firebase Console](https://console.firebase.google.com/)** and create a new project (or use existing).
 
